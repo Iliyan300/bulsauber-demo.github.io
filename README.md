@@ -9,4 +9,4 @@ The whole idea of the website - design, logo, colors, functionality is created b
 
 I learned a lot of things during the process of building the website and now I am even more interested in building more projects and learning new technologies.
 
-Technologies used - HTML , CSS , Javascript, Bootstrap, AOS library
+Technologies used - HTML , CSS , Javascript, Bootstrap, AOS library, AI for logo
