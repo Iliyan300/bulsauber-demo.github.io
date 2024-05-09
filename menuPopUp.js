@@ -8,11 +8,11 @@ menuBtn.addEventListener("click", () => {
    if(menu.style.top == "0%") {
     
       menuBtnLastLine.classList.add("active");
-      menu.style.top = "15%";
+      menu.classList.toggle("active")
       
    } else {
       menuBtnLastLine.classList.remove("active");
-    menu.style.top = "0%";
+      menu.classList.toggle("active");
     
    }
 

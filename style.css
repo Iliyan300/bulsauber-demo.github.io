@@ -210,13 +210,13 @@ button.active {
     background-color:white;
     transition: all 500ms;
     overflow: hidden;
-    padding-left:1.8rem
+    
 }
 
 .menu.active {
 
     top:15%;
-   width: 100%;
+   
     
 }
 
@@ -226,7 +226,6 @@ display:flex;
 flex-direction: row;
 justify-content: end;
 align-items: center;
-width:100%;
 text-align: center;
 
 }
@@ -919,7 +918,6 @@ label {
 
 .hamburger-menu {
 
-   width: 110px;
    display:flex;
    
    
@@ -933,19 +931,20 @@ label {
     display:flex;
     flex-direction: column;
     width: 100%;
-
+    
 }
 
 
 
 
 #hidden-menu li {
+    
     display: none;
     list-style: none;
     border:3px solid #3860e4;
     margin:10px;
     border-radius: 20px;
-    
+    width: 35px;
 }
 
 
@@ -1030,7 +1029,7 @@ z-index: 1;
 
 .call-to-action-wrapper div {
 
-padding:1rem;
+
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -1212,7 +1211,7 @@ footer .all-rights-reserved a {
 
 .menu .X-icon i {
 
-font-size: 26px;
+font-size: 22px;
 cursor: pointer;
 color:#ffa42d;
 

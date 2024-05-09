@@ -1,19 +1,36 @@
-@media screen and (max-width: 940px) {
 
 
-  body {
 
-    min-width: 70vh;
-    padding:0;
-    margin:0;
+
+ @media(max-width: 940px) {
+
+  .menu-links li a {
+
+    font-size: 13px;
+  }
+  
+  .container {
+    
+    min-width: 100vw;
+    padding-left:0.8rem;
+    padding-right:0.8rem;
+  
   }
 
+  body {
+    
+    min-width: 100vw;
+  
+    
+  }
+
+ 
 
   header {
 
     display:flex;
     justify-content: start;
-   width: 100%;
+    height: 90px;
 
   }
 
@@ -27,7 +44,7 @@
   .menu {
 
 
-    width: 100%;
+    width:100%;
     
     }
 
@@ -41,6 +58,7 @@
 
         display: block;
         pointer-events: visible;
+        
     }
 
     
@@ -89,13 +107,13 @@
      width: 90%;
      overflow: hidden;
      margin-bottom:3rem;
+
     }
 
     .info-section .info-column {
      
       min-width: 85%;
       min-height: 380px;
-      
       
     }
    
@@ -113,19 +131,23 @@
     .call-to-action {
 
       display:flex;
-      justify-content: center;
-      align-items: center;
-      height: 40vh;
-      margin-bottom:2rem;
-      
+      flex-direction: column;
+      left:0;
+      width: 100%;
+    
     }
 
-  
+  .footer-container {
 
-    .footer-container {
+    width: 100%;
+    
+  }
 
-      padding: 2rem 0 2rem 0;
+    .footer-content {
 
+      width: 170px;
+      padding-left:0.5rem;
+      padding-right:0.5rem;
     }
 
     .call-to-action h2 {
@@ -240,12 +262,6 @@
 
   
 
-  .menu {
-
-
-    min-width: 70vh;
-    
-    }
 
   .nav-text {
 
@@ -369,10 +385,12 @@ align-self: center;
   }
 
 
-  .call-to-action .call-to-action-wrapper div div  {
+  .call-to-action .call-to-action-wrapper div div   {
     
-    width: 150px;
-    
+   width: 100%;
+   margin:20px 0 20px 0;
+   
+  
     }
   
     .message-and-call-btns {
