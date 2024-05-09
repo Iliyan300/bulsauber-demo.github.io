@@ -1,9 +1,5 @@
 
-
 AOS.init();
-
-// Направлява плавно до определеното id//
-
 
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
