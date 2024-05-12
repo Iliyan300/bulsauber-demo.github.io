@@ -1422,3 +1422,15 @@ form .form-group {
     font-size: 2rem;
     color:#76affc;
 }
+
+
+.about-container .about-content button  {
+
+    padding:1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 20%;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+  }
