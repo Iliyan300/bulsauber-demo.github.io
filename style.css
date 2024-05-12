@@ -361,6 +361,7 @@ gap:1.5rem;
 
     background-color: #F0F0F0;
     
+    
 }
 
 .main-header a button {
@@ -429,7 +430,9 @@ gap:4rem;
 font-size: 1rem;
 padding:1rem;
 border-radius: 10px;
-background-color: #dfdfdf;
+background-color: #F0F0F0;
+color:black;
+box-shadow: 0 0 .4rem rgba(0, 0, 0, 0.419);
 border:none;
 cursor: pointer;
 
@@ -1061,7 +1064,6 @@ width: 150px;
         animation-name:borderOrange;
         animation-duration: 1s;
         animation-iteration-count: infinite;
-        border:4px solid #F0F0F0;
         padding:10px;
     }
 
@@ -1069,9 +1071,14 @@ width: 150px;
 
     @keyframes borderOrange {
         
+        from {
+
+            box-shadow: 0 0 0.3rem #ffa42d;
+        }
+
         to {
 
-            border: 4px solid #ffa42d;
+            box-shadow: 0 0 2rem #ffa42d;
         }
     }
 

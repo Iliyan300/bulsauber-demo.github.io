@@ -214,6 +214,7 @@
 .intro-container {
 
   padding: 0 1rem 0 1rem;
+
 }
   
  
@@ -221,6 +222,7 @@
 
   width: fit-content;
   align-self: center;
+  
 }
     .intro-container .statistics-border ul {
 
@@ -276,7 +278,34 @@
   align-self: start;
 }
   
+.about-container .about-content .about-page {
+
+  gap:2rem;
+  margin-bottom:1rem;
+}
+
+.about-container .about-content .about-page h1 {
+
+font-size:2rem;
+align-self: center;
+}
+
+
+.about-container .about-content button  {
+
+  padding:1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: white;
+  border:none;
+  
+}
+
     }
+
+
+
 
 
  @media(max-width: 640px) {
@@ -450,17 +479,13 @@ align-self: center;
   
   from {
 
-      border-top:  4px solid #3860e4;
-      border-right:  4px solid #3860e4;
-      border-bottom:  4px solid #3860e4;
+    box-shadow: 0 0 0.5rem #3860e4;
      
   }
 
   to {
 
-      border-top:  4px solid #ffa42d;
-      border-right:  4px solid #ffa42d;
-      border-bottom:  4px solid #ffa42d;
+    box-shadow: 0 0 2rem #ffa42d;
       
   }
 }
