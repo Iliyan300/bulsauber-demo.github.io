@@ -1,10 +1,6 @@
 
 
-
-
-
-
- @media(max-width: 640px) {
+ @media(max-width: 767px) {
 
   
 
@@ -114,17 +110,17 @@
       gap:2rem;
       justify-content: center;
       align-items: center;
-     width: 90%;
+     width: 80%;
      overflow: hidden;
      margin-bottom:3rem;
-
+      
     }
 
    
     .services-container {
 
       padding:2rem 0 2rem 0;
-      
+    
 
     }
 
@@ -133,7 +129,8 @@
       display:grid;
       grid-template-columns: 1fr;
       padding:0 1rem 0 1rem;
-
+      place-content: center;
+      
     }
 
     .services-container h1 {
@@ -155,10 +152,8 @@
     .form-wrapper form .form-content {
 
       width: 80%;
-      
       border-radius: 10px;
       background-color: white;
-
 
     }
     .form-wrapper .form-info img {
@@ -250,11 +245,10 @@
 
     
 
-
     .intro-content p {
 
       font-size: 1.4rem;
-     
+    
   }
 
   .intro-content h1 {
@@ -302,16 +296,7 @@ align-self: center;
   
 }
 
-    }
-
-
-
-
-
- @media(max-width: 640px) {
-
-
-  .nav-text {
+.nav-text {
 
   display:none;
 
@@ -344,16 +329,18 @@ align-self: center;
     align-items: center;
    width: 80%;
    overflow: hidden;
-   
+   padding:0 1rem 0 1rem;
+
   }
 
   .info-section .info-column {
    
-    min-width: 85%;
+    min-width: 80%;
     min-height: 380px;
     
   }
- 
+
+
   .main-header {
 
     display:grid;
@@ -375,73 +362,114 @@ align-self: center;
   
 }
 
+.intro-container .check-icons i {
 
-.intro-container .statistics-border {
-
-width: fit-content;
-align-self: center;
+  font-size:1.8rem;
 }
-  .intro-container .statistics-border ul {
 
- display:flex;
- flex-direction: column;
- gap:1rem;
- 
-
-  }
-
-  .intro-container .check-icons i {
-
-    font-size:1.8rem;
-  }
-
-  .intro-container .checks {
+.intro-container .checks {
 
 
-    display:flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    
-  }
-
-
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  
+}
 
 .intro-container .checks li {
 
   font-size: 1.4rem;
   padding:.5rem;
+  
 }
 
+.check-icons {
 
-  .check-icons {
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  gap:4rem;
+  padding-bottom:2rem;
+  
+  
+}
 
-    display:flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: end;
-    gap:4rem;
-    padding-bottom:2rem;
+.intro-container .facts-container {
+
+
+  display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+  place-content: center center;
+  
+}
+
+    }
+
+
+
+   @media(max-width:960px) {
+
+  
+
+    .form-wrapper {
     
+      display:flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      text-align: start;
+     padding: 1rem;
+     min-height: 170vh;
+     
+    }
+
+    .form-wrapper form .form-content {
+
+      width: 80%;
+      border-radius: 10px;
+      background-color: white;
+      
+    }
+
+    form {
+
+      padding:1rem;
+      width:100%;
+    }
+
+
+    .form-group-message textarea {
+   
+      width: 100%;
+    }
     
-  }
+.form-wrapper .form-info {
 
-  .intro-container .facts-container {
+  padding:1rem;
 
+}
+.form-wrapper .form-info h1 {
 
-    display:grid;
-   grid-template-columns: 1fr 1fr 1fr;
-    place-content: center center;
-    
-  }
+  font-size:2rem;
 
+}
 
-  .form-wrapper .form-info img {
+.form-wrapper .form-info p {
 
-    display:none;
-  }
+font-size: 1.4rem;
 
 
+}
+
+   }
+
+
+ @media(max-width: 767px) {
+
+
+ 
   .call-to-action .call-to-action-wrapper div div   {
     
    width: 100%;
@@ -512,14 +540,15 @@ align-self: center;
 }
 .form-wrapper .form-info h1 {
 
-  font-size:2rem;
+  font-size:1.9rem;
+  color:#3860e4;
 
 }
 
 .form-wrapper .form-info p {
 
 font-size: 1.4rem;
-
+color: rgb(44, 44, 44);
 
 }
 

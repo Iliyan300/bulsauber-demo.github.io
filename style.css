@@ -380,7 +380,7 @@ flex-direction: column;
 justify-content: start;
 align-items: center;
 min-height: 120vh;
-background-image: url(icons/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);
+background-color:#c0dcff;
 background-position: center;
 background-size: cover;
 padding-bottom:1rem;
@@ -487,7 +487,7 @@ margin-bottom:1rem;
     display:flex;
     justify-content:center;
     align-items: center;
-    background-image: url(icons/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);
+    background-color: #c0dcff;
    background-position: center;
    background-size: cover;
   overflow: hidden;
@@ -514,6 +514,7 @@ margin-bottom:1rem;
     cursor: pointer;
     text-transform: uppercase;
     background-color: #F0F0F0;
+    color:black;
 }
 
 .intro-content button a {
@@ -668,12 +669,13 @@ background-color:#e0edfd;
     
 }
 
-.services-columns {
+.services-container .services-columns {
 
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:2rem;
     padding:1.5rem;
+    place-content: center;
     
 }
 
@@ -703,7 +705,7 @@ box-shadow: 0 0 1rem rgba(177, 177, 177, 0.363);
     min-height: 80vh;
     align-items: center;
     justify-content: center;
-    background-image: url(icons/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);
+    background-color:#c0dcff;
    background-position: center;
    background-size: cover;
 
@@ -718,6 +720,7 @@ justify-content: center;
 align-items: start;
 flex-direction: column;
 gap:1.5rem;
+padding: 0 1rem 0 1rem;
 
 }
 
@@ -805,7 +808,7 @@ gap:1.5rem;
     align-items: start;
     padding:5rem;
     min-height: 150vh;
-    background: linear-gradient(to bottom, #314aa0,#76affc,#ffa42d);
+    background: linear-gradient(to bottom, #e0edfd,#e0edfd,#ffa42d);
     overflow: hidden;
    
  }
@@ -836,10 +839,10 @@ width: 50vh;
 padding:1rem;
  }
 
- .form-wrapper h1 {
+ .form-wrapper .form-info h1 {
     font-size: 3rem;
     padding:2rem;
-    color:White;
+    color:#3860e4;
     align-self: start;
  }
   
@@ -903,7 +906,7 @@ label {
 
 .form-wrapper div button {
     
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
     align-self: center;
     background-color: #3860e4;
@@ -1015,7 +1018,7 @@ z-index: 1;
     background-color: #fff;
     text-align: center;
     padding:2rem;
-
+    box-shadow:  0 0 1rem #25252542;
 }
 
 
@@ -1433,4 +1436,11 @@ form .form-group {
     background-color: white;
     border:none;
     cursor: pointer;
+  }
+
+  .form-content {
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow:  0 0 1rem #6868683d;
   }
