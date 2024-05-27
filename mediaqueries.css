@@ -1,6 +1,6 @@
 
 
- @media(max-width: 767px) {
+ @media(max-width: 887px) {
 
   
 
@@ -11,7 +11,7 @@
   
   .container {
     
-    min-width: 100vw;
+   
     padding-left:0.8rem;
     padding-right:0.8rem;
   
@@ -149,17 +149,22 @@
       width: 100%;
     }
 
+    
     .form-wrapper form .form-content {
 
       width: 80%;
       border-radius: 10px;
       background-color: white;
-
+     
     }
     .form-wrapper .form-info img {
 
       display:none;
     }
+
+
+    
+    
 
     .form-group-message, textarea {
 
@@ -416,7 +421,7 @@ align-self: center;
     .form-wrapper {
     
       display:flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: start;
       align-items: center;
       text-align: start;
@@ -436,7 +441,7 @@ align-self: center;
     form {
 
       padding:1rem;
-      width:100%;
+      width:80%;
     }
 
 
@@ -461,6 +466,11 @@ align-self: center;
 font-size: 1.4rem;
 
 
+}
+
+.form-wrapper img {
+
+  display: none;
 }
 
    }
@@ -576,4 +586,4 @@ color: rgb(44, 44, 44);
   }
 
 
-  
+ 

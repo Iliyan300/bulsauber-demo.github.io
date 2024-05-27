@@ -827,7 +827,7 @@ padding: 0 1rem 0 1rem;
 
 
 font-size:1.8rem;
-color:#ffb24e;
+color:#302f2f;
 padding-left: 2rem;
 
 
@@ -1372,15 +1372,10 @@ color:#3860e4;
 
 @keyframes ringing {
     
-    from {
-
-        border: 4px solid #3860e4;
-       
-    }
 
     to {
 
-        border: 4px solid #ffa42d;
+        box-shadow: 0 0 1rem #ffa42d; 
         
     }
 }
