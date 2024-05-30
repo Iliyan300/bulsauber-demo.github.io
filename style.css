@@ -206,31 +206,32 @@ button.active {
 }
 
 .menu {
-   min-width: 50%;
-    top:0%;
-    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
     background-color:#ffa42d;
     transition: all 300ms;
     overflow: hidden;
+    z-index: 1;
     
 }
 
 .menu.active {
 
-    top:14%;
+    height: 180px;
     background-color: #F0F0F0;
     border-radius: 5px;
     
 }
 
 .menu ul {
-
-display:flex;
-flex-direction: row;
-justify-content: end;
-align-items: center;
-text-align: center;
-
+    
+    flex-direction: column;
+    justify-content: 
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: stretch;
 }
 
 .menu ul li {
@@ -1209,25 +1210,9 @@ footer .all-rights-reserved a {
 
 /* Services page */
 
-.menu .X-icon {
-    
-    position:absolute;
-    left:6%;
-    top:28%;
-   background-color: #3860e4;
-    border-radius: 10px;
-    padding:5px;
-    
-}
-
-.menu .X-icon i {
-
-font-size: 23px;
-cursor: pointer;
-color:#ffa42d;
 
 
-}
+
 
 .services-container p {
 

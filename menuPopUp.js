@@ -22,7 +22,7 @@ hiddenLink.addEventListener("click", showHideMenu);
 
 });
 
-x_Icon.addEventListener("click", showHideMenu);
+
 menuBtn.addEventListener("click", showHideMenu);
 
 
