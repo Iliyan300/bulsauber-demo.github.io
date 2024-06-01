@@ -46,14 +46,21 @@
     display:flex;
     justify-content: center;
     align-items: start;
-    width:100%;
     height: 0px;
-    
+    width: 90%;
+
     }
+
+  
+   .menu-wrapper {
+
+    display: block;
+   }
 
     .nav-text {
 
     display:none;
+    
 
     }
 
@@ -104,9 +111,9 @@
       gap:2rem;
       justify-content: center;
       align-items: center;
-     width: 80%;
-     overflow: hidden;
-     margin-bottom:3rem;
+      width: 80%;
+      overflow: hidden;
+      margin-bottom:3rem;
       
     }
 
@@ -275,12 +282,14 @@
 
   gap:2rem;
   margin-bottom:1rem;
+  
 }
 
 .about-container .about-content .about-page h1 {
 
 font-size:2rem;
 align-self: center;
+
 }
 
 
@@ -622,6 +631,11 @@ color: rgb(44, 44, 44);
 
       padding:0;
     }
+
+    .menu {
+
+      width: 100%;
+    }
   }
  
 
@@ -650,5 +664,7 @@ color: rgb(44, 44, 44);
       
      
     }
+
+    
 
   }

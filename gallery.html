@@ -33,36 +33,45 @@
                     <li><a href="gallery.html">Нашата работа</a></li>
                 </ul>
             </div>
-
         </nav>
         
     </header>
-    <div class="menu">
-        <div class="X-icon">
-        <i class="bi bi-x-lg"></i>
-    </div>
-        <ul class="menu-links">
-            
-            <li><a href="about.html">За нас</a></li>
-            <li><a href="services.html">Услуги</a></li>
-            <li><a href="gallery.html">Нашата работа</a></li>
-        </ul>
-    </div>
-    <main class="about-container">
-        <div class="about-container section-color">
-        
-           <div class="maintenance-box">
-            <div class="maintenance-content">
-            <h1>В разработка...</h1>
-            <p> Очаквайте скоро :) </p>
-        </div>
-           </div>
 
+    <main class="about-container">
+        <div class="menu-wrapper">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li><a href="about.html">За нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="#gallery">Нашата работа</a></li>
+    
+                    <li><a href="contact.html">Контакт</a></li>
+        
+                </ul>
             </div>
+            </div>
+            <div class="gallery-header">
+            <h1>Нашата работа</h1>
+            </div>
+            <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+        </div>
+            <div class="gallery-container">
+                <button id="prev" class="nav-button">←</button>
+                <img id="gallery-image" src="" alt="Gallery Image">
+                <button id="next" class="nav-button">→</button>
+            </div>
+          
+        
             <a href="index.html"><button class="buttons-color">Начало</button></a>
         </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
-    <script src="menuPopUp.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="menuPopUp.js"></script>
+    <script type="text/javascript" src="imageGallery.js"></script>
+   
     </body>
         </html>
