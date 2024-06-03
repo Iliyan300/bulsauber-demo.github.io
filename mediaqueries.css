@@ -12,8 +12,8 @@
   .container {
     
    
-    padding-left:0.8rem;
-    padding-right:0.8rem;
+    padding-left:1rem;
+    padding-right:1rem;
   
   }
 
@@ -187,18 +187,21 @@
     
     }
 
-  .footer-container {
+  footer .footer-container {
 
-    width: 100%;
-    padding-left:1rem;
-    padding-right: 1rem;
+   width: 100%;
+  column-gap: 0;
   }
 
     .footer-content {
 
-      width: 150px;
+      
+      width: 200px;
       padding-left:1rem;
-      padding-right:1rem;
+      padding-right: 1rem;
+      justify-content: center;
+      align-items: start;
+      display: flex;
       
     }
 
@@ -427,7 +430,6 @@ align-self: center;
 
 
 
-
     }
 
 
@@ -638,6 +640,8 @@ color: rgb(44, 44, 44);
 
       width: 100%;
     }
+
+   
   }
  
 
@@ -670,3 +674,5 @@ color: rgb(44, 44, 44);
     
 
   }
+
+
