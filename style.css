@@ -779,11 +779,16 @@ padding: 0 1rem 0 1rem;
     height: 55px;
     color: white;
     cursor: pointer;
-    font-size: 5rem;
+    font-size:3.5rem;
     position: absolute;
     text-align: center;
     transform: translateY(-50%);
     transition: transform 0.1s linear;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 10;
+    border-radius: 10px;
+
   }
   
  
@@ -1486,7 +1491,7 @@ color:#3860e4;
     color: #ffb24e;
  }
 
-.gallery-container {
+.gallerypage-container {
     
     position: relative;
     width: 100%;
@@ -1518,7 +1523,14 @@ color:#3860e4;
     cursor: pointer;
     z-index: 10;
     border-radius: 10px;
-    font-size:1rem;
+    font-size:1.5rem;
+}
+
+.nav-button:hover {
+
+background-color: white;
+color:black;
+
 }
 
 #prev {
