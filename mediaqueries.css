@@ -117,11 +117,22 @@
       
     }
 
-   
+   .prices-columns {
+
+
+
+      display: flex;
+      flex-direction: column;
+      padding:1rem;
+      margin:1rem;
+    
+
+   }
+
     .services-container {
 
       padding:2rem 0 2rem 0;
-    
+      
 
     }
 
